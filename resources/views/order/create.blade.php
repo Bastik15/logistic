@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
     <div class="main-wrap">
-        <div class="main_content" style="margin-top: 10%;">
+        <div class="main_content" style="margin-top: 15;">
             <div class="header">
                 <br>
                 <div class="lineblock">
