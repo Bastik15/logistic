@@ -9,7 +9,7 @@ use App\Models\Order;
 class StoreController extends Controller
 {
     public function __invoke(StoreRequest $request)
-    {
+    {   //ufghhdfhj
         $order = $request->validated();
         // Добавление в БД заказа
         $order = Order::create(['title' => $order['title'], 'deadline' => $order['deadline'], 'type_id' => 2, 'client_id' => auth()->user()->id]);
