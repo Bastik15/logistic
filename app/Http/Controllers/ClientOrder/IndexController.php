@@ -9,7 +9,7 @@ class IndexController extends Controller
 {
 
     public function __invoke()
-    {
+    {   //gfdgfdgdfgd
         $user = auth()->user();
         // Заказы пользователя
         $orders = $user->clientOrders;
